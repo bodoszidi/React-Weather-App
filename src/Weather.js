@@ -47,11 +47,7 @@ export default function Weather(props) {
                 </div>
                 <div className="col-3">
                     <div className="clearfix weather-temperature py-4">
-                        <img
-                            src={weatherData.imgUrl}
-                            alt={weatherData.description}
-                            className="float-left mx-2"
-                        />
+                        <WeatherIcon icon="CLEAR_DAY" size={40} color="orange" />
                         <div className="float-left">
                             <strong>{weatherData.temperature}</strong>
                             <span className="units">

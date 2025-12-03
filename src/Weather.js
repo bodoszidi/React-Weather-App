@@ -16,7 +16,7 @@ export default function Weather(props) {
         <div className="Weather">
             <form className="mb-3">
                 <div className="row">
-                    <div className="col-9">
+                    <div className="col-9 py-4">
                         <input
                             type="search"
                             placeholder="Type a city.."
@@ -24,7 +24,7 @@ export default function Weather(props) {
                             autoComplete="off"
                         />
                     </div>
-                    <div className="col-3">
+                    <div className="col-3 py-4">
                         <input
                             type="submit"
                             value="Search"

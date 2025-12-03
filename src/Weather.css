@@ -13,11 +13,6 @@
   color: pink;
 }
 
-.Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-}
 
 .Weather .weather-temperature strong {
   color: rgb(33, 33, 33);
@@ -46,7 +41,7 @@
 }
 
 .Weather .weather-forecast h3 {
-  color: rgb(101, 99, 99);
+  color: rgb(8, 8, 69);
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -55,16 +50,11 @@
   padding-top: 7px;
 }
 
-.Weather .weather-forecast img {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
-}
+
 
 .Weather .weather-forecast-temperature {
   text-align: center;
-  color: rgb(158, 156, 156);
+  color: rgb(8, 8, 69);
   font-size: 13px;
   font-weight: 400;
   height: auto;
